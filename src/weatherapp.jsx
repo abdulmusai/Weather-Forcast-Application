@@ -173,7 +173,7 @@ export default function WeatherApp() {
     }, () => { setError("Location access denied"); setGeoLoading(false); });
   }, []);
 
-  useEffect(() => { load("New York"); }, [load]);
+  useEffect(() => { load("Kano"); }, [load]);
 
   const cur = weather?.current;
   const daily = weather?.daily;
